@@ -1,8 +1,9 @@
 
-form = document.getElementById('form');
+form = document.querySelector('form');
 
 form.addEventListener('submit',function (event){
   event.preventDefault();
+  console.log("form has been submitted")
 
   const question1Input = document.getElementById('question1Input').value; 
   console.log(question1Input)
@@ -21,6 +22,9 @@ form.addEventListener('submit',function (event){
 
   const question6Input = document.getElementById('question6Input').value; 
   console.log(question6Input)
-
-  const form = document.getElementById('form')
+  
 });
+
+const answerDelivery = function  {
+  
+}

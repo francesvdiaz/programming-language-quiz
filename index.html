@@ -7,12 +7,13 @@
   <h2>What Programming Language is Best for You?</h2>
   <p>Take This Free Quiz to Find Out Today!</p>
 </div>
-
-  <form>
-    <div id="form">
-     <label for="question1Input">What's your favorite color?</label>
-     <input id="question1Input" type="text" name="question1">
-
+  <form id="form">
+   <select id=“color”>
+    <option>Blue</option>
+    <option>Green</option>
+    <option>Black</option>
+   </select>
+  
      <label for="question2Input">Do you believe in aliens?</label>
      <input id="question2Input" type="text" name="question2">
 
@@ -28,9 +29,10 @@
      <label for="question6Input">When was the last time you checked to make sure your fridge was running?</label>
      <input id="question6Input" type="text" name="question6">
   </div>
-    <button id="submitButton" type="submit">Click here for your results!</button>
+    <button type="submit">Click here for your results!</button>
   </form>
 </div>
+
 <div id="answerDisplay" class="hidden">
 
 </div>
