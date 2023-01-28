@@ -5,26 +5,16 @@ form.addEventListener('submit',function (event){
   event.preventDefault();
   console.log("form has been submitted")
 
-  const question1Input = document.getElementById('question1Input').value; 
-  console.log(question1Input)
-
-  const question2Input = document.getElementById('question2Input').value; 
-  console.log(question2Input)
-
-  const question3Input = document.getElementById('question3Input').value; 
-  console.log(question3Input)
- 
-  const question4Input = document.getElementById('question4Input').value; 
-  console.log(question4Input)
-
-  const question5Input = document.getElementById('question5Input').value; 
-  console.log(question5Input)
-
-  const question6Input = document.getElementById('question6Input').value; 
-  console.log(question6Input)
-  
-});
-
 const answerDelivery = function  {
+  const color = document.getElementById('color').value ;
+  if color == "Blue"
+    then 
+   if else color == "Green"
+   else color == "Red" 
+
+   const aliens = document.getElementById('aliens').value ;
+   if aliens == "True"
+   else aliens == "False"
+
   
 }
