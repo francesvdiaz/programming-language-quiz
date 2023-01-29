@@ -1,20 +1,20 @@
 
 form = document.querySelector('form');
 
-form.addEventListener('submit',function (event){
-  event.preventDefault();
-  console.log("form has been submitted")
 
-const answerDelivery = function  {
-  const color = document.getElementById('color').value ;
-  if color == "Blue"
-    then 
-   if else color == "Green"
-   else color == "Red" 
+function getValue() {
+let color = document.getElementById('color').value;
 
-   const aliens = document.getElementById('aliens').value ;
-   if aliens == "True"
-   else aliens == "False"
+let aliens = document.getElementById('aliens').value;
 
-  
+let life = document.getElementById('life').value;
+
+let taste = document.getElementById('taste').value;
+
+let fun = document.getElementById('fun').value;
+}
+
+function displayAnswer()  {
+document.onsubmit.preventDefault;
+
 }

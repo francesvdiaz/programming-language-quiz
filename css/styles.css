@@ -1,0 +1,55 @@
+.hidden {
+  display: none;
+}
+body  {
+  text-align: center;
+  padding:15px;
+  margin:auto ;
+}
+#title {
+  background-color:slategray;
+  color:black;
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+}
+#form  {
+  background-color: antiquewhite;
+  color:slategray;
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+}
+#boxcolor  {
+  padding: "15"px;
+  margin: auto;
+  border: "5"px;
+}
+#boxaliens  {
+  padding: "15"px;
+  margin: auto;
+  border: "5"px;
+}
+#boxlife  {
+  padding: "15"px;
+  margin: auto;
+  border: "5"px;
+}
+#boxtaste  {
+  padding: "15"px;
+  margin: auto;
+  border: "5"px;
+}
+#boxfun  {
+  padding: "15"px;
+  margin: auto;
+  border: "5"px;
+}
+
+#tips  {
+  background-color: slategray;
+  color:black; 
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+}
