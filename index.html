@@ -5,75 +5,54 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
+
   <div id="title">
     <h2>What Programming Language is Best for You?</h2>
     <p>Take This Free Quiz to Find Out Today!</p>
   </div>
+
   <form id="form">
-    <div id="color">
-      <p>Pick one:</p>
-     <select id=“color”>
-     <option>Blue</option>
-     <option>Red</option>
-     </select>
-   </div>
-   <div id="aliens">
-    <p>True or False: you believe in aliens?</p>
-     <select id="aliens">
-     <option>True</option>
-     <option>False</option>
-     </select>
-   </div>
-   <div id="life">
-    <p>True or False: you believe life is fun and silly?</p>
-    <select id="life">
-      <option>True</option>
-      <option>False</option>
+    <label for="color">Pick one:</label>
+    <select id="color">
+      <option value="blue">Blue</option>
+      <option value="red">Red</option>
     </select>
-   </div>
-   <div id="taste">
-    <p>Pick one:</p>
+
+    <label for="aliens">Do you believe that aliens are real?</label>
+    <select id="aliens">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <label for="car">Do you know how to drive a car?</label>
+    <select id="car">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <label for="taste">Pick one:</label>
     <select id="taste">
-      <option>Savory</option>
-      <option>Sweet</option>
+      <option value="savory">Savory</option>
+      <option value="sweet">Sweet</option>
     </select>
-   </div>
-   <div id="fun">
-    <p>True or False: coding is fun?</p>
+
+    <label for="fun">Do you like coding?</label>
     <select id="fun">
-      <option>True</option>
-      <option>True</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
     </select>
-   </div>
-    <button type="submit">Click here for your results!</button>
+    <button id="button" type="submit">Click here for your results!</button>
   </form> 
-</div>
 
-<div id="python" class="hidden">
-  <h2>Congratulation!</h2>
-  <h3>Based off of your results...Python may be one of the best languages for you to learn first!</h3>
-</div>
-
-<div id="react" class="hidden">
-  <h2>Congratulations!</h2>
-  <h3>Based off of your results...React may be one of the best languages for you to learn first!</h3>
-
-</div>
-
-<div id="go" class="hidden">
-<h2>Congratulations</h2>
-<h3>Based off of your results...Go may be one of the best languages for you to learn first!</h3>
-</div>
-
-<div id="tips" class="hidden">
-<h2>Here are some tips to find the right programming language for you:</h2>
-<h3>Ask yourself this...</h1>
-<ol>
-  <li>What interests me about coding?</li>
-  <li>What am I passionate about outside of coding?</li>
-  <li>What kind of teams do I work best with? What kind of team-player am I?</li>
-</ol>
-<p>Once you ask yourself these questions, you can start to become more familiar with what type of programmer you want to be.</p>
-</div>
+  <div id="python" class="hidden">
+    <h2>Congratulation!</h2>
+    <h3>Based off of your results...Python may be one of the best languages for you to learn first!</h3>
+  </div>
+  <div id="react" class="hidden">
+    <h2>Congratulations!</h2>
+    <h3>Based off of your results...React may be one of the best languages for you to learn first!</h3>
+  </div>
+  <div id="go" class="hidden">
+    <h2>Congratulations</h2>
+    <h3>Based off of your results...Go may be one of the best languages for you to learn first!</h3>
+  </div>
 
 </body>
