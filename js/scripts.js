@@ -24,13 +24,13 @@ window.addEventListener("load", function() {
         document.getElementById("react").setAttribute("class","hidden");
         document.getElementById("ruby").setAttribute("class","hidden");
         document.getElementById("error").setAttribute("class","hidden");
-      } else if (color === "red" && aliens == "yes" && car == "no" && taste == "sweet" && fun == "yes") {
+      } else if (color === "blue" && aliens == "yes" && car == "no" && taste == "savory" && fun == "yes") {
         document.getElementById("react").removeAttribute("class","hidden");
         document.getElementById("python").setAttribute("class","hidden");
         document.getElementById("go").setAttribute("class","hidden");
         document.getElementById("ruby").setAttribute("class","hidden");
         document.getElementById("error").setAttribute("class","hidden");
-      } else if (color === "red" && aliens === "no" && car === "yes" && taste === "savory" && fun === "yes") {
+      } else if (color === "red" && aliens === "yes" | car === "yes" && taste === "sweet" && fun === "yes") {
         document.getElementById("ruby").removeAttribute("class","hidden");
         document.getElementById("go").setAttribute("class","hidden");
         document.getElementById("react").setAttribute("class","hidden");
