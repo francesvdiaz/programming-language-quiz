@@ -1,4 +1,64 @@
+
+body {
+  color: rgb(126, 108, 108);
+  background-color: rgb(251, 251, 251);
+  font-size: 16px;
+  padding:15px;
+  margin:13px ;
+  text-align: center;
+
+}
+
 .hidden  {
   display: none;
+  width: 50%;
+  height: auto;
+  background-color: rgb(156, 153, 163);
+  color:rgb(231, 227, 241);
+  padding: 15px;
+  border: 10px;
+  margin: auto;
+  box-sizing: border-box;
   
 }
+
+#title {
+  background-color: rgb(112, 104, 104);
+  color:rgb(251, 251, 251);
+  width:auto;
+  height: auto;
+  padding:10px;
+  margin: auto;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#form {
+  width: 50%;
+  height: auto;
+  background-color: rgb(231, 227, 241);
+  padding: 10px;
+  margin: auto;
+  border: 15px;
+  box-sizing: border-box;
+}
+
+.questions  {
+  background-color: rgb(231, 227, 241);
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.answers {
+  background-color: rgb(231, 227, 241);
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#button {
+  background-color: grey;
+  color:rgb(251, 251, 251);
+}
+

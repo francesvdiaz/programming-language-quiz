@@ -12,52 +12,72 @@
   </div>
 
   <form id="form">
-    <label for="color">Pick one:</label>
-    <select id="color">
-      <option value="blue">Blue</option>
-      <option value="red">Red</option>
-    </select>
+    <div class="questions">
+      <label for="color">Pick one:</label>
+      <select id="color">
+        <option value="---">---</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+      </select>
+    
+    <div class="questions">
+      <label for="aliens">Do you believe that aliens are real?:</label>
+      <select id="aliens">
+        <option value="---">---</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    
+    <div class="questions">
+      <label for="car">Do you know how to drive a car?:</label>
+      <select id="car">
+        <option value="----">---</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
 
-    <label for="aliens">Do you believe that aliens are real?</label>
-    <select id="aliens">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select>
-    <label for="car">Do you know how to drive a car?</label>
-    <select id="car">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select>
-    <label for="taste">Pick one:</label>
-    <select id="taste">
-      <option value="savory">Savory</option>
-      <option value="sweet">Sweet</option>
-    </select>
-
-    <label for="fun">Do you like coding?</label>
-    <select id="fun">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select>
+    <div class="questions">
+      <label for="taste">Pick one:</label>
+      <select id="taste">
+        <option value="---">---</option>
+        <option value="savory">Savory</option>
+        <option value="sweet">Sweet</option>
+      </select>
+    </div>
+    
+    <div class="questions">
+      <label class="labels" for="fun">Do you like coding?:</label>
+      <select id="fun">
+        <option value="---">---</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
     <button id="button" type="submit">Click here for your results!</button>
   </form> 
 
-  <div id="python" class="hidden">
-    <h2>Congratulation!</h2>
-    <h3>Based off of your results...<strong>Python</strong> may be one of the best languages for you to learn first!</p>
+  <div class="answers">
+    <div id="python" class="hidden">
+      <h3>Congratulations!</h3>
+      <p>Based on your results...<strong>Python</strong> may be one of the best languages for you to learn first!</p>
+    </div>
+    <div id="react" class="hidden">
+      <h3>Congratulations!</h3>
+      <p>Based on your results...<strong>React</strong> may be one of the best languages for you to learn first!</p>
+    </div>
+    <div id="go" class="hidden">
+      <h3>Congratulations!</h3>
+      <p>Based on your results...<strong>Go</strong> may be one of the best languages for you to learn first!</p>
+    </div>
+  
+    <div id="ruby" class="hidden">
+      <h3>Congratulations!</h3>
+      <p>Based on your results...<strong>Ruby</strong> may be one of the best languages for you to learn first!</p>
+    </div>
   </div>
-  <div id="react" class="hidden">
-    <h3>Congratulations!</h3>
-    <p>Based off of your results...<strong>React</strong> may be one of the best languages for you to learn first!</p>
+  
+  <div id="error" class="hidden">
+    <p><strong>Please enter some answers for a result.</strong></p>
   </div>
-  <div id="go" class="hidden">
-    <h3>Congratulations!</h3>
-    <p>Based off of your results...<strong>Go</strong> may be one of the best languages for you to learn first!</p>
-  </div>
-
-  <div id="ruby" class="hidden">
-    <h3>Congratulations!</h3>
-    <p>Based off of your results...<strong>Ruby</strong> may be one of the best languages for you to learn first!</p>
-  </div>
-
 </body>
